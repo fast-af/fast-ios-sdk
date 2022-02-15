@@ -55,7 +55,7 @@ $ pod install
 Add this to `Cartfile`
 
 ```
-binary "https://raw.githubusercontent.com/fast-af/fast-ios-sdk/0.1.0-alpha/FastCheckout.json"
+binary "https://raw.githubusercontent.com/fast-af/fast-ios-sdk/0.1.0-alpha.1/FastCheckout.json"
 ```
 
 ```bash
@@ -74,7 +74,7 @@ import PackageDescription
 let package = Package(
   name: "YourProjectName",
   dependencies: [
-    .package(url: "https://github.com/fast-af/fast-ios-sdk.git", .exact("0.1.0-alpha"))
+    .package(url: "https://github.com/fast-af/fast-ios-sdk.git", .exact("0.1.0-alpha.1"))
   ],
   targets: [
     .target(name: "YourProjectName", dependencies: ["FastCheckout"])
