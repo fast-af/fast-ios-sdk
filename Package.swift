@@ -16,8 +16,8 @@ let package = Package(
     targets: [
         .binaryTarget(
            name: "FastCheckout",
-           url: "https://github.com/fast-af/fast-ios-sdk/releases/download/0.1.0-alpha.1/FastCheckout.xcframework.zip",
-           checksum: "d65b1b4da6bf1b02b4bf69489f131beb09e258c317cad017251332912eba0ee2"
+           url: "https://github.com/fast-af/fast-ios-sdk/releases/download/0.1.0-alpha.2/FastCheckout.xcframework.zip",
+           checksum: "f755ed1984e40834bcd72085f139dc5a45bb1835966d22caea36b682723cebe7"
         )
     ]
 )
