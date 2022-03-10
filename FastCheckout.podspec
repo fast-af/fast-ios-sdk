@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'FastCheckout'
-  s.version          = '0.1.0-alpha.2'
+  s.version          = '0.1.0-alpha.7'
   s.summary          = 'The Fast Checkout iOS SDK'
 
   s.description      = <<-DESC
